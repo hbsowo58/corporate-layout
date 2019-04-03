@@ -116,6 +116,32 @@ ul{
     top: 100px;
     display:none;
 }
+.intro:hover .intro-inner{                                         
+    color: green;           
+    display: inline-block;
+}
+.business:hover .business-inner{                                         
+    color: green;           
+    display: inline-block;
+}
+.promotion:hover .promotion-inner{                                         
+    color: green;           
+    display: inline-block;
+}
+.hire:hover .hire-inner{                                         
+    color: green;           
+    display: inline-block;
+}
+.empty{
+    width:1200px;
+    height:96px;
+}
+header{
+    position: fixed;
+}
+
+
+
 
 
 
