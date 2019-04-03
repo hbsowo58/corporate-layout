@@ -56,6 +56,17 @@
 ![p9](https://user-images.githubusercontent.com/48181483/55465750-c1bc2100-5638-11e9-9705-bb3dbf57f200.png)
 
 헤더랑 컨테이너 사이에 헤더크기랑 같은 empty를 만들어 컨테이너랑 푸터가 눈에 보이기 쉽게 임시조치했다
+
+![image](https://user-images.githubusercontent.com/48181483/55465996-4870fe00-5639-11e9-9d91-ac46a845d014.png)
+
+비디오,섹션,아티클 태그를 넣어서 컨테이너 태그를 준비했다
+
+![p11](https://user-images.githubusercontent.com/48181483/55468301-0f875800-563e-11e9-928d-34b2e5845afb.png)
+
+비디오대신 아이프레임 태그를 사용해 동영상을 넣었다
+
+
+
   
   
   
