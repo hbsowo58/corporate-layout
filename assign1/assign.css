@@ -211,6 +211,23 @@ header{
 }
 
 
+/* footer */
+footer{
+    display: flex;
+}
+.choice{
+    float: right;
+}
+.bottomLink{
+    display: flex;
+    margin:0px 300px 0px 30px
+
+}
+.fot-mar{
+    margin:0px 0px 0px 200px
+}
+
+
 
 
 
