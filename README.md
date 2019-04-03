@@ -8,7 +8,8 @@
   1. 과제전 생각
   2. 진행중 생각
   3. 코딩
-  
+  ![picture](https://user-images.githubusercontent.com/48181483/55448786-2741ea80-5604-11e9-9a7e-d3f81be5c60f.png)
+
   
  
  
