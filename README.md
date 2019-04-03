@@ -8,7 +8,7 @@
   1. 과제전 생각
   2. 진행중 생각
   3. 코딩
-  ![picture](https://user-images.githubusercontent.com/48181483/55448786-2741ea80-5604-11e9-9a7e-d3f81be5c60f.png)
+  ![p1](https://user-images.githubusercontent.com/48181483/55448955-c7980f00-5604-11e9-82d2-71d2d438245c.png)
   과제를 하기에 앞서, 3가지 영역으로 나누어 코딩할것이라 큰틀을 그려보았다 배경색상으로 영역을 잘 차지했는지 구별하였는데,
   푸터는 display가 block이라 혼자 영역을 차지하는 것을 보니 다른친구들은 inline블록으로 생각했다.
   
