@@ -1,37 +1,15 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/hbsowo58/homework/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hbsowo58/homework/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+# 과제 조건
+라인 플러스 메인 페이지 마크업 구조 설계하고, CSS 스타일링하기
+  - 개인 깃허브에 homework 레포 만들고 일자별로 폴더 만든 뒤 그 안에 html과 css 파일을 구분해서 작성해서 업로드
+  - 데스크탑 1200px 기준 고정형 레이아웃으로 만들기
+  - https://linepluscorp.com/
+  
+  
+  1. 과제전 생각
+  2. 진행중 생각
+  3. 코딩
+  4. 문제
+  5. 해결
+  6. 배운것/얻은것 느낀것
+  7. 배워야할 
+  
