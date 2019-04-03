@@ -23,6 +23,26 @@
   헤더에 기본골자들을 넣었다 이제 이친구들을 배치하자
   
   
+  ![p4](https://user-images.githubusercontent.com/48181483/55463585-5a9c6d80-5634-11e9-8fe3-072509a54ab4.png)
+  배치하기전에 Eric Meyer의 css리셋했다 내가 설정하지도 않은 마진패딩등이 브라우저에 들어가있기 때문이다
+  
+  ![p5](https://user-images.githubusercontent.com/48181483/55463735-9e8f7280-5634-11e9-88b0-2712faa5010e.png)
+  배치중...
+
+  
+  
+  ![p6](https://user-images.githubusercontent.com/48181483/55463737-a18a6300-5634-11e9-96e7-69897a12f2ca.png)
+  
+  배치하면서 몇몇개는 display none으로 숨겨두고 마진패딩 조절 및 float로 정렬하였는데
+  또 디자인적 관점에서만 배치가 된것같은 느낌이다
+  
+  display none해놓은 친구들을 찾기위해 자바스크립트를 사용하지 않고 css의 hover를 쓰려고하는데
+  
+  클래스를 선택하는 방법을 몰라서 시간을 날렸다
+  
+  html에서 class = "hi bye" 랑 css에서 .hi bye{} 는 다르다는것을 인지못했다 전자는 클래스로 hi, bye 두가지를 한다는거고,
+  hi나 bye 아무거나 선택해도 다됨 후자의 hi bye는 hi밑에있는 bye다
+  
   
   
   
