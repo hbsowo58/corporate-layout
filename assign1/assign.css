@@ -1,9 +1,121 @@
-hearder{
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
     background: red;
+    display: block;
+    width:1200px;
+    height:100px;
 }
 container{
-    background-color: blue
+    background-color: blue;
+    display: block;
+    width:100%;
 }
 footer{
     background-color: yellow;
+    width:1200px;
 }
+.intro-inner,.business-inner,.promotion-inner,.hire-inner,.lang{
+    background-color: aqua;
+}
+ul{
+    list-style:none;
+}
+.main-menu{
+    background-color: purple;
+    position: relative;
+}
+.header-mainmenu li {
+    display: inline;
+    padding : 0px 25px;
+}
+.header-logo{
+    width: 70px;
+    height: 25px;
+    top: 0;
+    left: 0;
+    /* float: left; */
+}
+.header-logo{
+    display: inline-block;
+    border: 1px solid;
+    margin: 30px 100px 30px 0px;
+
+}
+.header-mainmenu{
+    display: inline-block;
+    border: 10px solid;
+    margin: 30px 350px 30px 50px;
+}
+.language{
+    display: inline-block;
+    float: right;
+    margin: 30px 10px;
+    border-radius: 10px;
+}
+.site-map{
+    float: right;
+    margin: 30px 10px;
+    border: 10px solid
+}
+.intro-inner{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    display: none;
+}
+.business-inner,.promotion-inner,.hire-inner{
+    position: absolute;
+    top: 100px;
+    display:none;
+}
+
+
+
