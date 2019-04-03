@@ -48,10 +48,14 @@ table {
 }
 
 header{
-    background: red;
     display: block;
-    width:1200px;
+    width:100%;
     height:100px;
+}
+.pc{
+    width: 1200px;
+    margin: 0 auto;
+    background: red;
 }
 container{
     background-color: blue;
@@ -139,6 +143,73 @@ ul{
 header{
     position: fixed;
 }
+
+
+
+/* 컨테이너 */
+
+
+.mvclip{
+    width: 100%;
+    height: 600px;
+
+}
+
+.News{
+    width:1200px;
+    height: 500px;
+    background-color: blueviolet;
+}
+.section-h{
+    width: 1100px;
+    height:150px;
+    font-size:2.25em;
+}
+.section-b{
+    width:1100px;
+    height:350px;
+}
+.more{
+    float:right;
+}
+.left-box{
+    width:530px;
+    padding: 10px 0;
+}
+.right-box{
+    width:530px;
+    padding: 10px 0;
+}
+.left-content{
+    float: left;
+    text-align: center;
+    border: 5px solid red;
+}
+.right-content{
+    float:right;
+    text-align: center;
+    border: 10px solid red;
+}
+.sec-div{
+    height:100px;
+    display:flex;
+    justify-content: center;
+}
+
+/* article */
+
+.sec-bg{
+    background-color: gray;
+}
+.sec-con{
+    width:215px;
+    border:1px solid red;
+
+}
+.sec-head,.sec-head,.sec-rink,.sec-rink{
+    padding: 0px 0px 10px 0px;
+}
+
 
 
 
