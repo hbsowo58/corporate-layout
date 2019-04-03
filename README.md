@@ -65,6 +65,14 @@
 
 비디오대신 아이프레임 태그를 사용해 동영상을 넣었다
 
+![p12](https://user-images.githubusercontent.com/48181483/55475065-de168880-564d-11e9-9073-b4c273e12e8a.png)
+
+뉴스 섹션을 만들었다. 디자인적으로만 비슷하게 만든것인데 나중에 다시 만들어야될 것 같다
+
+
+![p13](https://user-images.githubusercontent.com/48181483/55478677-3605bd00-5657-11e9-9d16-7a74b8140baf.png)
+
+아티클에서 플랙스를 써서 가로정렬후 justify-content:center로 가운데정렬 
 
 
   
