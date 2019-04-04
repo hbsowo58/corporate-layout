@@ -85,9 +85,6 @@ ul{
     height: 25px;
     top: 0;
     left: 0;
-    /* float: left; */
-}
-.header-logo{
     display: inline-block;
     border: 1px solid;
     margin: 30px 100px 30px 0px;
