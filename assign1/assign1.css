@@ -52,7 +52,6 @@ table {
     position: relative;       /*로고의 위치가 absolute가 되야되서 부모인 이친구가 릴레이티브여야 로고가 절대값을 가질 수 있음*/  
     border:1px solid gray;  /*내가보기쉽게*/
     width: 1200px;            /*너비를 정해줌*/  
-    position: fixed;          /*고정시킬거임*/
     min-height: 100px;        /*다떠있어서 최소높이좀잡아주자*/
 }
 
