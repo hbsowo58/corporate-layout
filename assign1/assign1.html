@@ -9,53 +9,60 @@
 </head>
 
 <body>
-    <header class="head">
-        <h1 class="logo"><a href="#">LINE</a></h1>
+    <header>
+        <h1 class="logo">LINE</h1>
+        <!--로고가 nav 밖에 존재하는게 나음 -->
+        <div class="a">
+            <button type="button" class="language"></button>
+            <!--nav보다 언어 선택이 우선이라고 판단 -->
+            <ul>
+                <li><a href="#" class="lang">한국어</a></li>
+                <li><a href="#" class="lang">English</a></li>
+                <li><a href="#" class="lang">日本語</a></li>
+                <li><a href="#" class="lang">中文(繁體)</a></li>
+                <li><a href="#" class="lang">中文(简体)</a></li>
+                <li><a href="#" class="lang">ภาษาไทย</a></li>
+            </ul>
+        </div>
         <nav class="nav">
             <ul class="mainmenu">
-                    <li class="intro">
-                        <span class="mainmenu-i">회사소개</span>
-                        <ul class="intro-inner">
-                            <li>회사소개</li>
-                            <li>LINE's Mission</li>
-                            <li>LINE그룹 행동 규범</li>
-                            <li>Contact</li>
-                            <li>LINE 로고 사용 가이드</li>
-                        </ul>
-                    </li>
-                    <li class="business">
-                        <span class="mainmenu-b">사업</span>
-                        <ul class="business-inner">
-                            <li>서비스</li>
-                            <li>캐릭터 사업</li>
-                        </ul>
-                    </li>
-                    <li class="promotion">
-                        <span class="mainmenu-p">홍보</span>
-                        <ul class="promotion-inner">
-                            <li>Global News</li>
-                            <li>Press Releases</li>
-                            <li>Blog & SNS</li>
-                        </ul>
-                    </li>
-                    <li class="hire">
-                        <span class="mainmenu-h">채용</span>
-                        <ul class="hire-inner">
-                            <li>일과 사람</li>
-                            <li>채용공고</li>
-                        </ul>
-                    </li>
-                </ul>
-                <select class="language">
-                    <option class="lang">한국어</option>
-                    <option class="lang">English</option>
-                    <option class="lang">日本語</option>
-                    <option class="lang">中文(繁體)</option>
-                    <option class="lang">中文(简体)</option>
-                    <option class="lang">ภาษาไทย</option>
-                </select>
-                <a href="#" class="site-map">SITEMAP</a>
+                <li class="intro">
+                    <span class="main-menu-i">회사소개</span>
+                    <ul class="intro-inner">
+                        <!--ul안에 li안에 ul 잘넣었음-->
+                        <li>회사소개</li> <!-- ul안에 li밖에 ul을 넣게되면 -->
+                        <li>LINE's Mission</li> <!-- ul끼리 같은 레벨로 볼 수 있는문제 발생할 수 있음-->
+                        <li>LINE그룹 행동 규범</li>
+                        <li>Contact</li>
+                        <li>LINE 로고 사용 가이드</li>
+                    </ul>
+                </li>
+                <li class="business">
+                    <span class="main-menu-b">사업</span>
+                    <ul class="business-inner">
+                        <li>서비스</li>
+                        <li>캐릭터 사업</li>
+                    </ul>
+                </li>
+                <li class="promotion">
+                    <span class="main-menu-p">홍보</span>
+                    <ul class="promotion-inner">
+                        <li>Global News</li>
+                        <li>Press Releases</li>
+                        <li>Blog & SNS</li>
+                    </ul>
+                </li>
+                <li class="hire">
+                    <span class="main-menu-h">채용</span>
+                    <ul class="hire-inner">
+                        <li>일과 사람</li>
+                        <li>채용공고</li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#" class="site-map">SITEMAP</a>
         </nav>
     </header>
 </body>
+
 </html>
