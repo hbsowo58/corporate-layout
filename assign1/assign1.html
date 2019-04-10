@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <title>LINE Plus Corporation | 홈</title>
-    <link rel="stylesheet" href="assign1.css">
+    <link rel="stylesheet" href="assign2.css">
 </head>
 
 <body>
@@ -13,16 +13,20 @@
         <h1 class="logo">LINE</h1>
         <!--로고가 nav 밖에 존재하는게 나음 -->
         <div class="a">
-            <button type="button" class="language"></button>
+            <button type="button" class="language">
+
+                <ul class="langua">
+                    <li><a href="#" class="lang">English</a></li>
+                    <li><a href="#" class="lang">日本語</a></li>
+                    <li><a href="#" class="lang">한국어</a></li>
+                    <li><a href="#" class="lang">中文(繁體)</a></li>
+                    <li><a href="#" class="lang">中文(简体)</a></li>
+                    <li><a href="#" class="lang">ภาษาไทย</a></li>
+                </ul>
+
+            </button>
             <!--nav보다 언어 선택이 우선이라고 판단 -->
-            <ul>
-                <li><a href="#" class="lang">한국어</a></li>
-                <li><a href="#" class="lang">English</a></li>
-                <li><a href="#" class="lang">日本語</a></li>
-                <li><a href="#" class="lang">中文(繁體)</a></li>
-                <li><a href="#" class="lang">中文(简体)</a></li>
-                <li><a href="#" class="lang">ภาษาไทย</a></li>
-            </ul>
+
         </div>
         <nav class="nav">
             <ul class="mainmenu">
@@ -31,7 +35,14 @@
                     <ul class="intro-inner">
                         <!--ul안에 li안에 ul 잘넣었음-->
                         <li>회사소개</li> <!-- ul안에 li밖에 ul을 넣게되면 -->
-                        <li>LINE's Mission</li> <!-- ul끼리 같은 레벨로 볼 수 있는문제 발생할 수 있음-->
+                        <li>LINE's Mission
+                            <ul class="nl">
+                                <li class="n">mission</li>
+                                <li class="n">Line Style</li>
+                                <li class="n">Line Code</li>
+                            </ul>    
+                        </li> <!-- ul끼리 같은 레벨로 볼 수 있는문제 발생할 수 있음-->
+
                         <li>LINE그룹 행동 규범</li>
                         <li>Contact</li>
                         <li>LINE 로고 사용 가이드</li>

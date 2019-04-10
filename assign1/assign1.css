@@ -70,6 +70,9 @@ header{
     height: 15px;
     border-radius: 5px;
 }
+.lang{
+    display:none;
+}
 .nav{
     background:orange;
     min-height: 100px;

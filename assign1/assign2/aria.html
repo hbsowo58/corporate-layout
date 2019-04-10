@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>웹카페(Web Cafe)</title>
+    <link rel="shortcut icon" href="images/common/webcafe.ico" type="image/x-icon">
+    <link rel="icon" href="images/common/webcafe.png" type="image/png">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="logo"><a href="#"><img src="images/logo.png" alt="Web Cafe"></a></h1>
+            <ul class="member">
+                <li><a href="#">홈</a></li>
+                <li> <a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+                <li> <a href="#">사이트맵</a></li>
+                <li><a href="#">engilish</a></li>
+            </ul>
+            <nav class="navigation">
+                <h2 class="readerable-hidden">메인메뉴</h2>
+                <ul class="menu">
+                    <li class="menu-item" tabindex="0">
+                        <span class="menu-item-text">html에 대해</span>
+                        <ul class="sub-menu sub-menu1">
+                            <li><a href="#">HTML5 소개</a></li>
+                            <li><a href="#">레퍼런스 소개</a></li>
+                            <li><a href="#">활용예제</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" tabindex="0">
+                        <span class="menu-item-text">CSS에 대해</span>
+                        <ul class="sub-menu sub-menu2">
+                            <li><a href="#">CSS 소개</a></li>
+                            <li><a href="#">CSS2 VS CSS3</a></li>
+                            <li><a href="#">CSS 애니메이션</a></li>
+                            <li><a href="#">CSS Framework</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" tabindex="0">
+                        <span class="menu-item-text">웹 표준</span>
+                        <ul class="sub-menu sub-menu3">
+                            <li><a href="#">웹표준 이란?</a></li>
+                            <li><a href="#">W3C </a></li>
+                            <li><a href="#">HTML5의 현재와 미래</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" tabindex="0">
+                        <span class="menu-item-text">웹 접근성</span>
+                        <ul class="sub-menu sub-menu4">
+                            <li><a href="#">웹 접근성의 개요</a></li>
+                            <li><a href="#">장애 환경의 이해</a></li>
+                            <li><a href="#">장차법</a></li>
+                            <li><a href="#">웹 접근성 품질마크</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" tabindex="0">
+                        <span class="menu-item-text">묻고 답하기</span>
+                        <ul class="sub-menu sub-menu5">
+                            <li><a href="#">묻고 답하기</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">1대1 질문</a></li>
+                            <li><a href="#">웹표준</a></li>
+                            <li><a href="#">웹 접근성</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item" tabindex="0">
+                        <span class="menu-item-text">자료실</span>
+                        <ul class="sub-menu sub-menu6">
+                            <li><a href="#">공개 자료실</a></li>
+                            <li><a href="#">이미지 자료실</a></li>
+                            <li><a href="#">웹표준 자료실</a></li>
+                            <li><a href="#">웹 접근성 자료실</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="visual">
+            <p class="visual-text">
+                Web Standards &amp; Accessibility
+            </p>
+        </div>
+        <main class="main clearfix">
+            <div class="group group1">
+                <section class="login">
+                    <h2 class="login-heading">로그인</h2>
+                    <form action="https://formspree.io/hbsowo58@gmail.com" method="POST" class="login-form">
+                        <fieldset>
+                            <legend>회원 로그인 폼</legend>
+                            <div class="user-email">
+                                <label for="user-email" class="pad">아이디</label>
+                                <input type="email" id="user-email" name="uid" required placeholder="mail@mail.com">
+                            </div>
+                            <div class="user-pw">
+                                <label for="user-pw">비밀번호</label>
+                                <input type="password" id="user-pw" name="upw" required placeholder="8자리이상">
+                            </div>
+                            <button class="btn-login" type="submit">로그인</button>
+                        </fieldset>
+                    </form>
+                    <ul class="sign clearfix">
+                        <li class="icon-right-open"><a href="#">회원가입</a></li>
+                        <li class="icon-right-open"><a href="#">아이디 비밀번호 찾기</a></li>
+                    </ul>
+                </section>
+                <section class="validation">
+                    <h2 class="readerable-hidden">유효성 검사 배너</h2>
+                    <ul class="validation-list">
+                        <li><a href="https://validator.w3.org" target="_blank" title="마크업 유효성 검사 배너 링크 (새창)">W3C Markup
+                                Validation</a></li>
+                        <li><a href="https://jigsaw.w3.org/css-validator" target="_blank"
+                                title="CSS 유효성 검사 배너 링크(새창)">CSS Validation Service</a></li>
+                    </ul>
+                </section>
+                <section class="term">
+                    <h2 class="term-heading">웹 관련 용어</h2>
+                    <dl class="term-list">
+                        <div class="clearfix">
+                            <dt class="term-list-subject">
+                                <a href="#">웹 표준 이란?</a>
+                            </dt>
+                            <dd class="term-list-thumbnail">
+                                <img src="images/web_standards.gif" alt="W3C 로고">
+                            </dd>
+                            <dd class="term-list-brief">W3C 단체에서 규정한 웹 기술 사양에 대한 규칙을 말하며 표준 규격은...
+                            </dd>
+                        </div>
+                        <!-- <div class="even clearfix">
+                            <dt class="term-list-subject">
+                                <a href="#">웹 표준 이란?</a>
+                            </dt>
+                            <dd class="term-list-thumbnail">
+                                <img src="images/web_standards.gif" alt="W3C 로고">
+                            </dd>
+                            <dd class="term-list-brief">W3C 단체에서 규정한 웹 기술 사양에 대한 규칙을 말하며 표준 규격은...
+                            </dd>
+                        </div> -->
+                    </dl>
+                </section>
+            </div>
+            <div class="group group2">
+                <section class="search">
+                    <h2 class="readerable-hidden">검색</h2>
+                    <form id="search-form" action="https://formspree.io/hbsowo58@gmail.com" class="search-form"
+                        method="POST">
+                        <fieldset>
+                            <legend>검색 폼</legend>
+                            <div class="search-container">
+                                <label for="search" class="icon-search">자료검색</label>
+                                <input type="search" id="search" required placeholder="검색어를 입력하세요.">
+                                <button form="search-form" type="submit" class="btn-search">검색</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+                <div class="board">
+                    <section class="notice board-act" role ="tablist">
+                        <h2 id="notice" class="tab notice-heading" tabindex="0"
+                        aria-controls="section1" role="tab" aria-selected="true"
+                        >공지사항</h2>
+                        <ul class="board-list notice-list" role="navigation" aria-labelledby="notice-pagination"> <!--탭 패널 넣고싶은데 ul태그엔 못넣음-->
+                            <li class="icon-dot-circled">
+                                <a href="#" id="notice-pagination">HTML의 모든 것을 알려주마 샘플 활용법</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                            <li class="icon-dot-circled">
+                                <a href="#" id="notice-pagination">W3C 사이트 리뉴얼 및 공지사항</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                            <li class="icon-dot-circled">
+                                <a href="#" role="complementary" aria-labelledby="notice">KWCAG 2.1 소식2</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                            <li class="icon-dot-circled">
+                                <a href="#" role="tooltip">서버 점검으로 인한 사이트 이용안내 입니다.</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                            <li class="icon-dot-circled">
+                                <a href="#" id="notice-pagination">여러분들이 생각하는 웹 접근성에 대해 이야기를 나누어 봅시다.</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                        </ul>
+                        <a href="#" class="icon-plus board-more notice-more" title="공지사항" aria-labelledby="notice">더보기</a>
+                    </section>
+                    <section class="pds" role ="tablist">
+                        <h2 id="pds" class="tab pds-heading" tabindex="0"
+                        aria-controls="section2" role="tab" aria-selected="false"
+                        >자료실</h2>
+                        <ul class="board-list pds-list" role="navigation" aria-labelledby="other-navigation"> <!--탭 패널 넣고싶은데 ul태그엔 못넣음-->
+                            <li class="icon-dot-circled">
+                                <a href="#" id="other-navigation">디자인 사이트 링크 모음</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                            <li class="icon-dot-circled">
+                                <a href="#" id="other-navigation">웹 접근성 관련 자료 모음</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                            <li class="icon-dot-circled">
+                                <a href="#" id="other-navigation">예제 샘플 응용해보기</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                            <li class="icon-dot-circled">
+                                <a href="#" id="other-navigation">웹 접근성 향상을위한 국가 표준 기술 가이드라인</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                            <li class="icon-dot-circled">
+                                <a href="#" id="other-navigation">로얄티 프리 이미지 자료</a>
+                                <time datetime="2019-04-09T11:18:27">2019.04.09</time>
+                            </li>
+                        </ul>
+                        <a href="#" class="icon-plus board-more pds-more" title="자료실" aria-labelledby="pds">더보기</a>
+                    </section>
+                </div>
+            </div>
+            <div class="group group3">그룹3</div>
+        </main>
+
+        <article class="slogan">슬로건</article>
+        <div class="footer-bg">
+            <footer class="footer">푸터</footer>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
