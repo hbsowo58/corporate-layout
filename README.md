@@ -75,6 +75,124 @@ gnb에는 hover이벤트로 색상을 변경해 사용자에게 구분점을 줄
 
 <br>
 
+```html
+...
+<body>
+    <header>
+        <div>
+            <h1><a href="#">DECODELAB</a></h1>
+            <ul>
+                <li><a href="#">DEPARTMENT</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">YOUTUBE</a></li>
+                <li><a href="#">COMMUNITY</a></li>
+                <li><a href="#">LOCATION</a></li>
+            </ul>
+    
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Sitemap</a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+...
+```
+
+hedaer의 마크업을 완료하였다. header 태그안에 3개의 컨텐츠가 존재하며 레이아웃을 잡기위한 div를
+
+하나 생성하였다.
+
+<br>
+
+```css
+...
+header div.inner{
+    width:1180px;
+    height:120px;
+    margin: 0px auto;
+    position: relative;
+}
+
+div.inner h1.logo{
+    position: absolute;
+    bottom:15px;
+    left:0px;
+}
+
+h1.logo a{
+    font:bold 24px/1 "arial";
+    color: #444;
+}
+
+div.inner ul.gnb{
+    position: absolute;
+    bottom:0px;
+    right:0px;
+}
+
+ul.gnb li{
+    float:left;
+}
+
+ul.gnb li a{
+    display: block;
+    font: bold 15px/1 "arial";
+    color: #555;
+    padding: 20px 40px;
+    transition: 0.5s;
+}
+
+ul.gnb li a:hover{
+    background: #555;
+    color:#fff;
+}
+
+
+
+div.inner ul.util{
+    position: absolute;
+    top:20px;
+    right:0px;
+}
+
+ul.util li{
+    float:left;
+}
+
+ul.util li a{
+    display: block;
+    font: 12px/1 "arial";
+    color: #999;
+    border-right:1px solid #aaa;
+    padding:0px 10px;
+}
+
+ul.util li:last-child a{
+    border-right:none;
+}
+...
+```
+
+css로 디자인을 입혔다 최대한 class로 작성하였으며 디자인을 위한 html 요소에 선택자를 사용하지 않았다. 좋은지는 모르겠다.
+
+<br>
+
+```html
+<header class="header">
+```
+
+에 대하여 고찰해보았다, header태그에 class를 준다면 어떠한 이름으로 주어야하며
+
+다양하게 커질 수 있는 프로젝트라고 가정한다면 header라고 클래스명을 짓는게 맞을까?
+
+기업형 사이트이기때문에 class라고 줘도 괜찮다고 보지만, 상품으로 친다면 다양한 환경을 고려해서
+
+클래스명을 지어야할 것 같다.
+
 
 
 
