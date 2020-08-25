@@ -193,7 +193,11 @@ css로 디자인을 입혔다 최대한 class로 작성하였으며 디자인을
 
 클래스명을 지어야할 것 같다.
 
+<br>
 
+header 완성 이미지
+
+<img width="1276" alt="header finish" src="https://user-images.githubusercontent.com/48181483/96825594-782a6580-146c-11eb-9bd4-c169bf097ab9.png">
 
 
 
