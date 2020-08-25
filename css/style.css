@@ -1,66 +1,64 @@
 @charset 'utf-8';
-
-header div.inner{
-    width:1180px;
-    height:120px;
-    margin: 0px auto;
-    position: relative;
+header div.inner
+{
+	height: 120px;
+	margin: 0px auto;
+	position: relative;
+	width: 1180px;
 }
-
-div.inner h1.logo{
-    position: absolute;
-    bottom:15px;
-    left:0px;
+div.inner h1.logo
+{
+	bottom: 15px;
+	left: 0px;
+	position: absolute;
 }
-
-h1.logo a{
-    font:bold 24px/1 "arial";
-    color: #444;
+h1.logo a
+{
+	color: #444;
+	font: bold 24px/1 "arial";
 }
-
-div.inner ul.gnb{
-    position: absolute;
-    bottom:0px;
-    right:0px;
+div.inner ul.gnb
+{
+	bottom: 0px;
+	position: absolute;
+	right: 0px;
 }
-
-ul.gnb li{
-    float:left;
+ul.gnb li
+{
+	float: left;
 }
-
-ul.gnb li a{
-    display: block;
-    font: bold 15px/1 "arial";
-    color: #555;
-    padding: 20px 40px;
-    transition: 0.5s;
+ul.gnb li a
+{
+	color: #555;
+	display: block;
+	font: bold 15px/1 "arial";
+	padding: 20px 40px;
+	transition: 0.5s;
 }
-
-ul.gnb li a:hover{
-    background: #555;
-    color:#fff;
+ul.gnb li a:hover
+{
+	background: #555;
+	color: #fff;
 }
-
-
-
-div.inner ul.util{
-    position: absolute;
-    top:20px;
-    right:0px;
+div.inner ul.util
+{
+	position: absolute;
+	right: 0px;
+	top: 20px;
 }
-
-ul.util li{
-    float:left;
+ul.util li
+{
+	float: left;
 }
-
-ul.util li a{
-    display: block;
-    font: 12px/1 "arial";
-    color: #999;
-    border-right:1px solid #aaa;
-    padding:0px 10px;
+ul.util li a
+{
+	border-right: 1px solid #aaa;
+	color: #999;
+	display: block;
+	font: 12px/1 "arial";
+	padding: 0px 10px;
 }
-
-ul.util li:last-child a{
-    border-right:none;
+ul.util li:last-child a
+{
+	border-right: none;
 }
