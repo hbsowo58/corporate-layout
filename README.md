@@ -18,7 +18,11 @@ javascript : 이 단계에서는 보조하는 기능을 주로 담당하며 dom 
 
 <br>
 
-나아가 반응형 웹을 구성할 예정이며, css초기화는 Eric Meyer의 recet.css를 사용
+반응형 웹을 구성할 예정이며, css초기화는 Eric Meyer의 recet.css를 사용
+
+<br>
+
+작업후 html파일은 https://prettydiff.com/?m=beautify&html css파일은 http://www.lonniebest.com/FormatCSS/을 활용
 
 <br>
 
@@ -198,6 +202,24 @@ css로 디자인을 입혔다 최대한 class로 작성하였으며 디자인을
 header 완성 이미지
 
 <img width="1276" alt="header finish" src="https://user-images.githubusercontent.com/48181483/96825594-782a6580-146c-11eb-9bd4-c169bf097ab9.png">
+
+두번째, visual 영역 분석
+
+
+
+visual 영역은 전체 크기를 차지하면서 배경동영상을 세팅하고, 그안에 inner영역을 width고정값을 줘서 자식들을 배치하고
+
+전체 100%를 차지한다고 판단, 안에 컨텐츠들은 패딩으로 레이아웃을 배치하고
+
+컨텐츠들사이에 공백은 margin을 사용하고, 버튼에 사용되는 속성은
+
+text-align 및 hover, text-align을 사용해야하니까, 컨텐츠의 부모는 블록속성이여야겠다. 혁신이라는 소제목은 h2로 가야할까? 소제목과 버튼을 제외한 컨텐츠는 p태그로 판단된다.
+
+
+
+
+
+
 
 
 
