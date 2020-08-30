@@ -1,12 +1,15 @@
 @charset 'utf-8';
-header div.inner
+
+
+/* header start */
+header div.container
 {
 	height: 120px;
 	margin: 0px auto;
 	position: relative;
 	width: 1180px;
 }
-div.inner h1.logo
+div.container h1.logo
 {
 	bottom: 15px;
 	left: 0px;
@@ -17,7 +20,7 @@ h1.logo a
 	color: #444;
 	font: bold 24px/1 "arial";
 }
-div.inner ul.gnb
+div.container ul.gnb
 {
 	bottom: 0px;
 	position: absolute;
@@ -40,7 +43,7 @@ ul.gnb li a:hover
 	background: #555;
 	color: #fff;
 }
-div.inner ul.util
+div.container ul.util
 {
 	position: absolute;
 	right: 0px;
@@ -63,6 +66,10 @@ ul.util li:last-child a
 	border-right: none;
 }
 
+/* header end */
+
+
+/* visual section start */
 section.visual{
 	width:100%;
 	position: relative;
@@ -119,3 +126,5 @@ div.container a:hover{
 	background: #555;
 	color:#fff;
 }
+
+/* visual section end */
