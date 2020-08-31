@@ -1,36 +1,31 @@
 @charset 'utf-8';
-
-
-/* header start */
-header div.container
+header div.inner
 {
 	height: 120px;
-	margin: 0px auto;
 	position: relative;
-	width: 1180px;
 }
-div.container h1.logo
+header div.inner h1.logo
 {
 	bottom: 15px;
 	left: 0px;
 	position: absolute;
 }
-h1.logo a
+header h1.logo a
 {
 	color: #444;
 	font: bold 24px/1 "arial";
 }
-div.container ul.gnb
+header div.inner ul.gnb
 {
 	bottom: 0px;
 	position: absolute;
 	right: 0px;
 }
-ul.gnb li
+header ul.gnb li
 {
 	float: left;
 }
-ul.gnb li a
+header ul.gnb li a
 {
 	color: #555;
 	display: block;
@@ -38,22 +33,22 @@ ul.gnb li a
 	padding: 20px 40px;
 	transition: 0.5s;
 }
-ul.gnb li a:hover
+header ul.gnb li a:hover
 {
 	background: #555;
 	color: #fff;
 }
-div.container ul.util
+header div.inner ul.util
 {
 	position: absolute;
 	right: 0px;
 	top: 20px;
 }
-ul.util li
+header ul.util li
 {
 	float: left;
 }
-ul.util li a
+header ul.util li a
 {
 	border-right: 1px solid #aaa;
 	color: #999;
@@ -61,70 +56,57 @@ ul.util li a
 	font: 12px/1 "arial";
 	padding: 0px 10px;
 }
-ul.util li:last-child a
+header ul.util li:last-child a
 {
 	border-right: none;
 }
-
-/* header end */
-
-
-/* visual section start */
-section.visual{
-	width:100%;
+section.visual
+{
+	background: #000;
+	height: calc(100vh - 120px);
+	overflow: hidden;
+	padding-top: 250px;
 	position: relative;
-	background:#000;
-	overflow:hidden;
-	height:calc(100vh - 120px);
-	padding-top:250px;
+	width: 100%;
 }
-
-section video{
-	width:2000px;
-	height:1125px;
+section.visual video
+{
+	height: 1125px;
+	left: 50%;
+	margin-left: -1000px;
+	margin-top: calc(-1125px / 2);
+	opacity: 0.3;
 	position: absolute;
-	opacity:0.3;
-	/* 가운데정렬 */
-	top:50%;
-	left:50%;
-	margin-top:calc(-1125px / 2);
-	margin-left:-1000px;
+	top: 50%;
+	width: 2000px;
 }
 
-section.visual div.container{
-	width:1180px;
-	margin:0px auto;
-	position: relative;
-	/* 여기에 relative가 없으면 인식을못하나?? */
-}
-
-div.container h1{
-	font: normal 120px/1 "arial";
+section div.container h2
+{
 	color: #fff;
+	font: normal 120px/1 "arial";
 	margin-bottom: 20px;
 }
-
-div.container p{
-	font: 16px/1.4 "arial";
+section div.container p
+{
 	color: #888;
+	font: 16px/1.4 "arial";
 	margin-bottom: 60px;
 }
-
-div.container a{
-	display: block;
+section div.container a
+{
 	border: 1px solid #bbb;
-	font: bold 11px/30px "arial";
 	color: #fff;
-	text-align: center;
-	width:400px;
-	height:30px;
-	transition:all 0.5s;
+	display: block;
+	font: bold 11px/30px "arial";
+	height: 30px;
 	letter-spacing: auto;
+	text-align: center;
+	transition: all 0.5s;
+	width: 400px;
 }
-
-div.container a:hover{
+section div.container a:hover
+{
 	background: #555;
-	color:#fff;
+	color: #fff;
 }
-
-/* visual section end */
