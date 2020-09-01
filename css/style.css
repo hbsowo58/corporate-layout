@@ -1,31 +1,31 @@
 @charset 'utf-8';
-header div.inner
+.header .inner
 {
 	height: 120px;
 	position: relative;
 }
-header div.inner h1.logo
+.header .inner .logo
 {
 	bottom: 15px;
 	left: 0px;
 	position: absolute;
 }
-header h1.logo a
+.header .logo a
 {
 	color: #444;
 	font: bold 24px/1 "arial";
 }
-header div.inner ul.gnb
+.header .inner ul.gnb
 {
 	bottom: 0px;
 	position: absolute;
 	right: 0px;
 }
-header ul.gnb li
+.header .gnb li
 {
 	float: left;
 }
-header ul.gnb li a
+.header .gnb li a
 {
 	color: #555;
 	display: block;
@@ -33,22 +33,22 @@ header ul.gnb li a
 	padding: 20px 40px;
 	transition: 0.5s;
 }
-header ul.gnb li a:hover
+.header .gnb li a:hover
 {
 	background: #555;
 	color: #fff;
 }
-header div.inner ul.util
+.header .inner .util
 {
 	position: absolute;
 	right: 0px;
 	top: 20px;
 }
-header ul.util li
+.header .util li
 {
 	float: left;
 }
-header ul.util li a
+.header .util li a
 {
 	border-right: 1px solid #aaa;
 	color: #999;
@@ -56,11 +56,11 @@ header ul.util li a
 	font: 12px/1 "arial";
 	padding: 0px 10px;
 }
-header ul.util li:last-child a
+.header .util li:last-child a
 {
 	border-right: none;
 }
-section.visual
+.visual
 {
 	background: #000;
 	height: calc(100vh - 120px);
@@ -69,7 +69,7 @@ section.visual
 	position: relative;
 	width: 100%;
 }
-section.visual video
+.visual video
 {
 	height: 1125px;
 	left: 50%;
@@ -81,19 +81,19 @@ section.visual video
 	width: 2000px;
 }
 
-section div.container h2
+.visual .container h2
 {
 	color: #fff;
 	font: normal 120px/1 "arial";
 	margin-bottom: 20px;
 }
-section div.container p
+.visual .container p
 {
 	color: #888;
 	font: 16px/1.4 "arial";
 	margin-bottom: 60px;
 }
-section div.container a
+.visual .container a
 {
 	border: 1px solid #bbb;
 	color: #fff;
@@ -105,7 +105,7 @@ section div.container a
 	transition: all 0.5s;
 	width: 400px;
 }
-section div.container a:hover
+.visual .container a:hover
 {
 	background: #555;
 	color: #fff;
