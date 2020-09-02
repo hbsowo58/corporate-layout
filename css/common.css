@@ -1,7 +1,7 @@
-div.container{
+.container{
     width: 1180px;
     margin: 0px auto;
 }
-div.posr{
+.posr{
     position: relative;
 }

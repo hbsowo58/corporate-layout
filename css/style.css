@@ -1,4 +1,6 @@
 @charset 'utf-8';
+
+/*header start */ 
 .header .inner
 {
 	height: 120px;
@@ -60,6 +62,8 @@
 {
 	border-right: none;
 }
+/*header end */ 
+/*visual start */ 
 .visual
 {
 	background: #000;
@@ -110,3 +114,5 @@
 	background: #555;
 	color: #fff;
 }
+/*visual end */ 
+/*news start */ 
