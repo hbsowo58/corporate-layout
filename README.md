@@ -371,5 +371,46 @@ header section에 inner라는 부분을 container로 변경하기로 하였다. 
 ...
 ```
 
+<br>
+
+세번째 뉴스영역 분석
+
+뉴스는 크게 new section 자식요소로 container, 다시 자식으로 h2태그와 ul태그를 갖고 ul에는 같은 형식으로 h3,p,div(img)를 4개
+
+갖고있다 초기 마크업작업은
 
 
+
+```html
+...
+<section class="news">
+    <div class="container">
+        <h2>RECENT NEWS</h2>
+        <ul>
+            <li>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, incidunt.</p>
+                <div></div>
+            </li>
+            <li>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, incidunt.</p>
+                <div></div>
+            </li>
+            <li>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, incidunt.</p>
+                <div></div>
+            </li>
+            <li>
+                <h3>Lorem ipsum dolor sit.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, incidunt.</p>
+                <div></div>
+            </li>
+        </ul>
+    </div>
+</section>
+...
+```
+
+구성하였다 css스타일링을 하되 구조에 변화를 주지않도록 노력해야겠다
