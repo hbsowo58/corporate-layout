@@ -414,3 +414,22 @@ header section에 inner라는 부분을 container로 변경하기로 하였다. 
 ```
 
 구성하였다 css스타일링을 하되 구조에 변화를 주지않도록 노력해야겠다
+
+<br>
+
+css스타일링도중 속상했던 순간이있다
+
+```css
+margin:0px;
+margin:none;
+```
+
+두개의 차이를 몰랐기 때문이다. margin none이라는게 존재하나? 속성에대한 값이 정확하지 않아 레이아웃 구성이 안되서 속상했다.
+
+<br>
+
+최종적으로 구성한 news section
+
+![screenshot-127 0 0 1_5500-2020 10 24-14_25_07](https://user-images.githubusercontent.com/48181483/97068680-ca9e8a00-1604-11eb-9a3b-026f6551e497.png)
+
+markup을 조금 바꿨다 배치상으론 div > h3 > p태그순이지만 h3>p>div순으로 markup하였다 div는 단순히 그림이라고 판단했기 때문이다
