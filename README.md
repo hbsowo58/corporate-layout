@@ -433,3 +433,44 @@ margin:none;
 ![screenshot-127 0 0 1_5500-2020 10 24-14_25_07](https://user-images.githubusercontent.com/48181483/97068680-ca9e8a00-1604-11eb-9a3b-026f6551e497.png)
 
 markup을 조금 바꿨다 배치상으론 div > h3 > p태그순이지만 h3>p>div순으로 markup하였다 div는 단순히 그림이라고 판단했기 때문이다
+
+---
+
+brand section 분석
+
+가장 최상단에 section 자식으로 contatiner를 가지며 h2로 섹션의 제목존재하며
+
+float 배치를 하는데, 높이와 너비를 고정값을 사용해야 할 것 같고
+
+좌측부터 우측으로 위에서부터 아래로 div1~div4를 사용
+
+고정형 레이아웃의 너비값인 1180의 3분할시점인 div1은 380 div2,3역시 380
+
+div의너비는 780
+
+div1의 높이는 620 px이며, div2~4는 300px
+
+```html
+<!--초기 마크업-->
+<section class="brand">
+    <div class="container">
+        <h2>BRAND IDENTITY</h2>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</section>
+```
+
+정말 필요하다고 생각하는것만 만든후, 변경예정
+
+
+
+![brand](https://user-images.githubusercontent.com/48181483/97123601-f25e3100-176f-11eb-9ce5-97b4c46b420e.png)
+
+완성본
+
+
+
