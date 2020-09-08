@@ -1,149 +1,160 @@
-
-/*헤더*/
-.header{ 
-    width: 100%;            /*고정형 레이아웃*/  
-	min-height: 90px;
-	line-height: 90px;           /*내가보기쉽게*/
+.header{
+    width:100%;
+	height:100px;
 	position: fixed;
-	background-color: pink;
+	background-color: red;
 }
 
-.header .container{
-	width:1180px;
-	margin:0px auto;
-	background-color: yellow;
+.container{
+    width: 1180px;
+    margin: 0 auto;
+	background: orange;
 	position: relative;
-	padding:30px;
-	box-sizing: border-box;
 }
 
-.logo{
-	position: absolute;
-	width:70px;
-	height:25px;
-	cursor: pointer;
-	/* margin-left:20px; */
+.headerLogo{
+    width: 70px;
+    height: 25px;
+    display: inline-block;
+	margin: 30px 100px 30px 0px;
 	background: url(/images/logo_h1_v2.png) no-repeat center/cover;
+	cursor: pointer;
 	text-indent: -9999px;
 }
-.a{
-	/* background: red; */
-	float:right;
-	width: 90px;
-}
-.language{
-	/* background: yellow; */
-	width: 90px;
-	height: 20px;
-	border-radius: 5px;
-	cursor: pointer;
-	position: relative;
-	top:40%;
-	background:white;
+
+.languageMenu{
+	border-radius: 20px;
+	/* background-color: pink; */
+	position: absolute;
+	right:3%;
+	top:50%;
+	margin-top: -15px;
+	width:120px;
+	box-sizing: border-box;
+	padding:10px;
 }
 
-.langua{
-	position: absolute;
-	top: 0;
-    left: 0;
-	display:none;
-	line-height: 30px;
-	/* background: yellow; */
-    width: 100%;
-	border-radius: 15px;
-	border:1px solid gray;
+.headerMainMenu{
+    display: inline-block;
+    /* border: 10px solid; */
+    /* margin: 30px 200px 30px 50px; */
 }
-.language:hover .langua{
+
+.headerMainMenu .intro, .business, .promotion, .hire{
+	display: inline-block;
+	padding : 40px 20px;
+	box-sizing: border-box;
+	/* background-color: red; */
+}
+
+.site-map{
+	/* float: right; */
+    /* margin: 30px 10px; */
+	/* border: 10px solid; */
+	
+    line-height: 90px;
+    font-size: 17px;
+    font-size: 1.0625rem;
+    margin-right: 30px;
+    color: #adadad;
+	cursor: pointer;
+	float:right;
+	margin-right:170px;
+}
+.intro-inner{
+	width:100%;
+    position: absolute;
+    top: 100px;
+	left: 0px;
+	
+
+	height:100px;
+    display: none;
+}
+
+/* .intro-inner::before{
+	content:'';
+	display:block;
+	clear:both;
+} */
+
+.intro-inner{
+	padding-top:30px;
+	/* display: inline-block; */
+	/* display:none; */
+	/* background-color: yellow; */
+	/* color:red; */
+}
+
+
+.intro-inner .Line li{
+	display:block;
+	/* color: #000; */
+    /* cursor: pointer; */
+	/* font-size: 1rem; */
+	background-color: red;
+	/* display: none; */
+}
+
+/* .intro-inner li:nth-of-type(2) ul{
+	display: block;
+} */
+
+.intro:hover .intro-inner li{                                         
+    color: green;           
+    /* display: inline-block; */
+}
+
+
+
+
+/* .intro-inner ul li{
+	float:none;
+	background-color: red;
+} */
+
+.business-inner,.promotion-inner,.hire-inner{
+    position: absolute;
+    top: 100px;
+	height:100px;
+	line-height: 100px;
+	display: none;
+	/* display:inline-block; */
+}
+
+/* .business-inner{
+	display: block;
+	background: red; */
+
+.business:hover .business-inner{
+	/* display:inline-block; */
+}
+	
+
+/* .business-inner:hover .business-inner{
+	display:block;
+} */
+
+.business-inner:hover{
 	display:block;
 }
 
-
-
-.business-inner{
-	padding-left:20%
+.promotion:hover .promotion-inner{                                         
+    /* color: green;            */
+    display: inline-block;
 }
-.promotion-inner{
-	padding-left:25%;
-}
-.hire-inner{
-	padding-left:33%;
-}
-
-.intro-inner, .business-inner,.promotion-inner,.hire-inner{
-	position: absolute;
-    top: 100px;
-	background:gray;
-	width: 100%;
-	display:none;
-	left:0;
-	height:120%;
+.hire:hover .hire-inner{                                         
+    /* color: green;            */
+    display: inline-block;
 }
 
 
-.gnb{
-	background-color: red;
-	margin-left:150px;
+.intro-inner,.business-inner,.promotion-inner,.hire-inner,.lang{
+    background-color: aqua;
 }
 
 
 
-
-/* .mainmenu>li>span{
-	float: left;
-}
-.mainmenu{
-	width:800px;
-	float:left;
-	padding-left: 50px;
-}
-.mainmenu li{
-    margin:0 20px 0 20px;
-}
-.mainmenu span{
-    padding:0 20px 0 20px;
-}
-.site-map{
-	margin-left:100px;
-	color: gray;
-}
-.intro:hover .intro-inner{                                                    
-	display: flex;
-	cursor: pointer;
-}
-.business:hover .business-inner{                                                   
-	display: flex;
-	cursor: pointer;
-}
-.promotion:hover .promotion-inner{                                              
-	display: flex;
-	cursor: pointer;
-}
-.hire:hover .hire-inner{                                                
-	display: flex;
-	cursor: pointer;
-}
-.intro:hover .main-menu-i{
-	color:green;
-	cursor: pointer;
-}
-.business:hover .main-menu-b{                                                   
-	color:green;
-	cursor: pointer;
-}
-.promotion:hover .main-menu-p{                                              
-	color:green;
-	cursor: pointer;
-}
-.hire:hover .main-menu-h{                                                
-	color:green;
-	cursor: pointer;
-}
-.nl{
-	margin-top:-80px;
-}
-.n{
-	height:20px;
-} */
 
 
 
