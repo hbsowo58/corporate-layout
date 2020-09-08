@@ -200,7 +200,7 @@
     background: #eee;
 }
 
-.brand .container h2{
+.brand .container .brandSubject{
 	font: bold 24px/1 "arial";
     color: #555;
     margin-bottom: 50px;
@@ -213,14 +213,14 @@
 	clear:both;
 }
 
-.brand .container div{
+.brand .container article{
 	margin-right:20px;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.brand .container div:nth-of-type(1){
+.brand .container .brand1{
 	background: #444;
 	width:380px;
 	height:620px;
@@ -229,23 +229,23 @@
 	text-align: center;
 }
 
-.brand .container div:nth-of-type(1) i{
+.brand .brand1 .fa-barcode{
 	font-size: 100px;
     color: #fff;
 	margin-bottom: 20px;
 }
 
-.brand .container div:nth-of-type(1) h2{
+.brand .container .brand1 .subHeading{
 	font: bold 20px/1 "arial";
     color: #fff;
     margin-bottom: 10px;
 }
-.brand .container div:nth-of-type(1) p{
+.brand .container .brand1 .subContent{
 	font: 14px/1.3 "arial";
     color: #999;
     margin-bottom: 30px;
 }
-.brand .container div:nth-of-type(1) a{
+.brand .container .brand1 .subBtn{
 	display: block;
     width: 150px;
     height: 30px;
@@ -257,16 +257,14 @@
     box-sizing: content-box;
 }
 
-
-.brand .container div:nth-of-type(2){
+.brand .container .brand2{
 	width:380px;
 	height:300px;
 	float:left;
 	background-image: url(/img/brand2.jpg);
 }
 
-.brand .container div:nth-of-type(3){
-	background-color: beige;
+.brand .container .brand3{
 	width:380px;
 	height:300px;
 	float:right;
@@ -274,8 +272,7 @@
 	background-image: url(/img/news4.jpg);
 }
 
-.brand .container div:nth-of-type(4){
-	background-color: blue;
+.brand .container .brand4{
 	width:780px;
 	height:300px;
 	float:right;
