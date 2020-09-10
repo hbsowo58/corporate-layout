@@ -472,5 +472,56 @@ div1의 높이는 620 px이며, div2~4는 300px
 
 완성본
 
+---
 
 
+
+banner section 분석
+
+
+
+![banner](https://user-images.githubusercontent.com/48181483/97241220-cad09c80-1833-11eb-8343-b93e859b9732.png)
+
+
+
+컨텐츠자체는 별거없다, 화면에 꽉차게  배경과 글씨, 마우스 스크롤링에 따라 화면이 움직이는 듯한 모션을 어떻게 구성하는가가 관건이라고 생각한다.
+
+
+
+```html
+...
+<section class="banner">
+    <div class="container">
+        <h2 class="bannerTilte">Lorem ipsum dolor sit amet consectetur.</h2>
+        <p class="bannerContent">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Soluta, temporibus saepe facilis omnis ad totam est
+            a odio vero eum.</p>
+    </div>
+</section>
+...
+```
+
+```css
+.banner{
+	width:100%;
+	padding:150px 0px;
+	background: url(../img/banner.jpg) no-repeat center/cover fixed;
+}
+
+.banner .bannerTilte{
+	font: bold 30px/1 "arial";
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.banner .container .bannerContent{
+	font: 16px/1.3 "arial";
+    color: #bbb;
+    text-align: center;
+}
+```
+
+
+
+banner 섹션에서는 background를 섹션에 속성으로 주고 fixed를 값을 주면되는  쉬운 섹션이였다.
