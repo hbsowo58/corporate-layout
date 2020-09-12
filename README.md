@@ -1,6 +1,10 @@
 # 기업형 레이아웃 제작
 
-사용 기술 : html5, css3, javascript
+배포사이트 :http://corporate-layout.s3-website.ap-northeast-2.amazonaws.com
+
+
+
+사용 기술 : html5, css3, javascript ,aws
 
 <br>
 
