@@ -485,7 +485,7 @@ banner section 분석
 
 
 
-컨텐츠자체는 별거없다, 화면에 꽉차게  배경과 글씨, 마우스 스크롤링에 따라 화면이 움직이는 듯한 모션을 어떻게 구성하는가가 관건이라고 생각한다.
+컨텐츠자는 화면에 꽉차게  배경과 글씨, 마우스 스크롤링에 따라 화면이 움직이는 듯한 모션을 어떻게 구성하는가가 관건이라고 생각한다.
 
 
 
@@ -526,3 +526,93 @@ banner section 분석
 
 
 banner 섹션에서는 background를 섹션에 속성으로 주고 fixed를 값을 주면되는  쉬운 섹션이였다.
+
+---
+
+comments 섹션
+
+마크업 컨텐츠들의 중요성이나 레이아웃으로 봤을때, 순서대로 배치하면 크게 문제 없는듯 하다.
+
+
+
+```html
+...
+<section class="comments">
+    <div class="container">
+        <h2>RECENT COMMENTS</h2>
+        <ul>
+            <li>
+                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                <span>2020.10.16</span>
+            </li>
+            <li>
+                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                <span>2020.10.16</span>
+            </li>
+            <li>
+                <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+                <span>2020.10.16</span>
+            </li>
+        </ul>
+    </div>
+</section>
+...
+```
+
+<br>
+
+```css
+...
+.comments{
+	width: 100%;
+    padding: 150px 0px;
+    background: #ddd;
+}
+
+.comments .container h2{
+	font: bold 20px/1 "arial";
+    color: #555;
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+.comments .container li{
+	border: 1px solid #111;
+    margin-bottom: 20px;
+	padding: 20px;
+}
+
+.comments .container li::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.comments .container li:hover{
+	background: #444;
+}
+
+.comments .container li a{
+	float: left;
+	color: #555;
+}
+
+.comments li span{
+	float: right;
+    color: #888;
+}
+
+.comments .container li:hover a,
+.comments li:hover span{
+	color:#fff;
+}
+...
+```
+
+<br>
+
+![Comments section](https://user-images.githubusercontent.com/48181483/97373641-c373c680-18f9-11eb-8fce-141100975a4e.png)
+
+최종제작본
+
+li 자식요소로 a와 span을 사용하였는데, 이를 float 배치하다보니 높이를 잃어버리는 현상이 발생한 것 외에는 예상대로 해결되었다.
