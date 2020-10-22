@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>location</title>
+	<script src="https://kit.fontawesome.com/c47106c6a7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/sub_layout.css">
+    <link rel="stylesheet" href="css/member.css">
+    <script src="js/common.js" defer></script>
+</head>
+<body>
+
+	<header class="header">
+		<div class="container">
+			<h1 class="logo">
+				<a href="index.html">DCODELAB</a>
+			</h1>
+			<span>Basic Programming</span>
+			<ul class="gnb wrap">
+				<li>
+					<a href="#">DEPARTMENT</a>
+				</li>
+				<li>
+					<a href="community.html">COMMUNITY</a>
+				</li>
+				<li>
+					<a href="member.html">MEMBERS</a>
+				</li>
+				<li>
+					<a href="#">GALLERY</a>
+				</li>
+				<li>
+					<a href="location.html">LOCATION</a>
+				</li>
+			</ul>
+			<a href="#" class="btnCall">
+				<i class="fas fa-bars"></i>
+			</a>
+			<nav class="menuMo">
+				<ul>
+					<li>
+						<a href="#">DEPARTMENT</a>
+					</li>
+					<li>
+						<a href="community.html">COMMUNITY</a>
+					</li>
+					<li>
+						<a href="member.html">MEMBERS</a>
+					</li>
+					<li>
+						<a href="#">GALLERY</a>
+					</li>
+					<li>
+						<a href="#">LOCATION</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section class="content member">
+		<div class="sub_visual">
+			
+		</div>
+		<div class="inner">
+            <h1>JOIN MEMBER<span>회원가입 페이지</span></h1>
+            
+            <form action="join.php" method="post">
+                <fieldset>
+                    <legend class="hidden">회원가입 입력양식폼</legend>
+                    <h2><label for="terms">Terms and Policy</label></h2>
+                    <textarea name="terms" id="terms" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore debitis amet animi repellendus blanditiis saepe veniam totam repellat libero iste reprehenderit, vero sunt voluptate ab quod dolores. Optio sapiente quam, labore fugiat harum veritatis ipsum reiciendis obcaecati accusamus aspernatur voluptas quo, est ipsa. Tempore ex nihil laborum reprehenderit et earum voluptates quia, odit rerum aliquam quam accusantium asperiores commodi, quasi beatae provident a! Ipsum, animi. Doloribus culpa temporibus eligendi repellendus, veniam perspiciatis quam iusto rem eaque aspernatur quo consectetur quibusdam atque saepe eos illum esse facere quaerat molestias explicabo ab harum distinctio sunt? Animi placeat eligendi, accusamus incidunt aperiam dolor?</textarea>
+
+                    <p class="agreement">
+                        <input type="checkbox" id="agree" name="agree" value="agree"><label for="agree">약관에 동의합니다.</label>
+                    </p>
+    
+                    <h2>Member Information</h2>
+                    <table summary="회원의 아이디,비번,성별,취미 입력양식 폼">
+                        <caption class="hidden">회원정보 입력 양식 테이블</caption>
+                        <tr>
+                            <th scope="row"><label for="id">USER ID</label></th>
+                            <td>
+                                <!-- 텍스트 입력받음 -->
+                                <input type="text" name="id" id="id" placeholder="사용자 아이디를 입력해주세요">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><label for="pwd">PASSWORD</label></th>
+                            <td>
+                                <!-- 보안이 필요한 비밀번호 입력받음 -->
+                                <input type="password" name="pwd" id="pwd" placeholder="비밀번호를 입력해주세요.">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">INTERESTS</th>
+                            <td>			
+                                <label for="game">게임</label><input type="checkbox" name="hobby" value="game" id="game">
+                                <label for="music">음악</label><input type="checkbox" name="hobby" value="music" id="music">
+                                <label for="reading">독서</label><input type="checkbox" name="hobby" value="reading" id="reading">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">GENDER</th>
+                            <td>			
+                                <label for="male">남성</label><input type="radio" name="gender" value="male" id="male">
+                                <label for="female">여성</label><input type="radio" name="gender" value="female" id="female">	
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><label for="company">E-MAIL</label></th>
+                            <td class="email">
+                                <input type="text" placeholder="메일 아이디를 입력해주세요.">				
+                                <select name="company" id="company">
+                                    <option value="nate.com">@ nate.com</option>
+                                    <option value="naver.com">@ naver.com</option>
+                                    <option value="google.com">@ google.com</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><label for="comments">COMMENTS</label></th>
+                            <td>
+                                <textarea name="comments" cols="30" rows="10" id="comments" placeholder="남기실 메세지를 적어주세요."></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th><label for="file">File</label></th>
+                            <td>
+                                <input type="file" name="file" id="file" value="file">
+                            </td>
+                        </tr>		
+                        <tr>
+                            <th colspan="2">					
+                                <input type="reset" value="CANCEL">					
+                                <input type="submit" value="SUBMIT">
+                            </th>		
+                        </tr>
+                    </table>
+                </fieldset>
+            </form>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="up wrap">
+				<div class="left">
+					<ul>
+						<li>
+							<a href="#">lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+					</ul>
+					<ul>
+						<li>
+							<a href="#">lorem</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+						<li>
+							<a href="#">Lorem ipsum</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="right">
+					<span>lorem ipsum</span>
+					<span>lorem ipsum</span>
+					<span>lorem ipsum</span>
+					<span>lorem ipsum</span>
+				</div>
+			</div>
+			<div class="down">
+				<a href="index.html" class="logo">DECODELAB</a>
+	
+				<span>2010 DCODELAB ALL RIGHT reserved</span>
+				
+				<select>
+					<option>FAMILY SITE</option>
+				</select>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
+

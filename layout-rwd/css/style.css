@@ -1,0 +1,497 @@
+@charset 'utf-8';
+
+/* header start */
+.header{
+    width:100%;
+    padding:50px 0px;
+}
+
+.header .container{
+    text-align: center;
+    position: relative;
+}
+
+.header .container .logo a{
+    color:#000;
+    font:bold 40px/1 "arial";
+}
+
+.header .container span{
+    display:block;
+    font:bold 12px/1 "arial";
+    color:#888;
+}
+
+.header .container .gnb{
+    display: inline-block;
+    margin-top: 20px;
+    width:100%;
+}
+
+.header .container .gnb li{
+    float:left;
+    width:20%;
+    height:70px;
+    line-height: 70px;
+}
+
+
+.header .container .gnb li a{
+    width:100%;
+    height: 100%;
+    /* padding:20px; */
+    /* margin-right:100px; */
+    display: block;
+    cursor: pointer;
+    color:#666
+}
+
+.header .container .gnb li a:hover{
+    background: #999;
+    transition: 0.5s;
+    text-decoration: underline;
+    color:#000;
+}
+
+.header .btnCall {
+    position:absolute;
+    bottom:50%;
+    right:30px;
+    font-size:30px;
+    color:#555;
+    display:none;
+}
+
+.header .menuMo{
+    width:280px;
+    height:100%;
+    background: #333;
+    position: fixed;
+    top:0px;
+    left:-280px;
+    z-index:9;
+    transition: 0.5s;
+}
+
+.header .menuMo.on{
+    left:0px;
+}
+
+
+/* header end */
+
+
+/* visual start */
+
+.visual{
+    width:100%;
+    overflow: hidden;
+    height:700px;
+    background: #555;
+    color:#fff;
+    margin-bottom:100px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 50px;
+    width:100%;
+}
+
+
+/* visual end */
+
+/* news start */
+
+.news{
+    width:100%;
+    padding:50px 0px;
+    text-align: center;
+}
+
+.news .container span{
+    display:block;
+}
+
+.news .container article {
+    width:calc(100%/6);
+    float:left;
+    padding:40px 10px;
+    box-sizing: border-box;
+}
+
+.news .container article i{
+    width:100%;
+    font-size:40px;
+}
+
+.news .container article p{
+    padding:20px;
+}
+
+/* news end */
+
+
+/* brand start */
+
+.brand{
+    width:100%;
+    padding:50px 0px;
+    margin-bottom:100px;
+}
+
+.brand .container article{
+    width:280px;
+    margin-right:20px;
+    float:left;
+    border-top:3px solid #111;
+    padding-top:10px;
+}
+
+.brand .container article:last-child{
+    margin-right:0px;
+}
+
+.brand .container article .pic{
+    width:100%;
+    height:200px;
+    overflow:hidden;
+    position:relative;
+}
+
+.brand .container article span a {
+    color:#777
+}
+
+.brand .container article:nth-of-type(1) .pic::before{
+    background-image: url(/img/brand1.jpg);
+}
+
+.brand .container article:nth-of-type(2) .pic::before{
+    background-image: url(/img/brand2.jpg);
+}
+
+.brand .container article:nth-of-type(3) .pic::before{
+    background-image: url(/img/news1.jpg);
+}
+
+
+.brand .container article:nth-of-type(1) span,
+.brand .container article:nth-of-type(2) span,
+.brand .container article:nth-of-type(1) p,
+.brand .container article:nth-of-type(2) p{
+    padding:20px 20px 5px 20px; 
+    display:block;
+}
+
+.brand .container article:nth-of-type(1) span,
+.brand .container article:nth-of-type(2) span{
+    font:bold 16px/1 'arial';
+    color:#555;
+}
+
+.brand .container article:nth-of-type(1) p,
+.brand .container article:nth-of-type(2) p{
+    font:normal 12px/1;
+    color: #555;
+}
+
+.brand .container article:nth-of-type(3) .pic{
+    height:320px;
+}
+
+.brand .container article:nth-of-type(4) h3{
+    font:bold 50px/1 'arial';
+}
+
+.brand .container article:nth-of-type(4) h4{
+    font-size:35px;
+    margin-bottom:10px;
+}
+
+.brand .container article:nth-of-type(4) h4::after{
+    content:'';
+    display:block;
+    width:65px;
+    border-top:3px solid #000;
+}
+
+.brand .container article:nth-of-type(4) span{
+    font:bold 16px/1 'arial';
+}
+
+.brand .container article:nth-of-type(4) p{
+    font:normal 12px/1;
+    color: #555;
+    margin:10px 0px;
+}
+
+.brand .container article .moreBtn{
+    color: #555;
+    cursor: pointer;
+}
+.brand .container article .moreBtn::after{
+    content:'>>';
+}
+
+/* brand end */
+
+/* footer start */
+
+.footer{
+    width:100%;
+    background-color: #555;
+    position: relative;
+    padding:50px 0px;
+}
+
+.footer .up:first-child{
+    border-bottom: 1px solid #888;
+    padding:20px 0px;
+}
+
+/* .footer .container:nth-child(1) ul{
+    border-bottom: 1px solid #888;
+    padding:20px 0px;
+} */
+
+/* .up::after{
+    position: absolute;
+    content:'';
+    display:block;
+    width:99vw;
+    border-bottom: 1px solid #888;
+    top:60%;
+    left:0;
+} */
+
+/* .footer .container{
+    padding:50px 0px;
+} */
+
+.footer .up .left{
+    width:70%;
+    float:left;
+}
+
+.footer .up .right{
+    width:30%;
+    float:right;
+}
+
+.footer .up .left ul{
+    float:left;
+    width:25%
+}
+
+.footer .up .left ul li{
+    margin-bottom:5px;
+}
+
+.footer .up .left ul li:first-child{
+    margin-bottom:10px;
+}
+
+.footer .up .left ul li a,
+.footer .up .left ul li h4{
+    font-size: 14px;
+    color: #777;
+}
+
+.footer .up .left ul li:first-child a{
+    font-size: 20px;
+    color:#999;
+}
+
+.footer .up .right span{
+    display:block;
+    width:33%;
+    float:right;
+    color: #777;
+}
+
+.footer .down {
+    width:100%;
+    text-align:center;
+    padding: 60px 0px;
+}
+
+.footer .down {content:""; display:block; clear:both;}
+
+.footer .down .logo {
+    height:30px;
+    font:bold 30px/30px "arial";
+    color:#999;
+    float:left;
+}
+
+.footer .down span{
+    color:#999;
+}
+
+.footer .down select{
+    width:15%;
+    font:bold 16px/30px "arial";
+    color:#999;
+    float:right;
+}
+
+/* footer end */
+
+
+@media screen and (max-width:1179px){
+    .header{
+        padding:30px;
+    }
+    .header .container{
+        width:100%;
+    }
+    
+    .header .container .gnb li a{
+        margin-right:0px;
+        font-size:12px;
+    }
+        
+    .visual{
+        margin-bottom:30px;
+    }
+    
+    .swiper-slide {
+        font-size: 30px;
+    }
+    
+    .news .container{
+        text-align: center;
+        width:100%;
+    }
+            
+    .news .container article {
+        width:25%;
+        margin-right:20px;
+    }    
+    .news .container article i{
+        display:block;
+        width:100%;
+        font-size:70px;
+    }
+    .brand{
+        padding:30px 0px;
+        margin-bottom:50px;
+    }
+
+    .brand .container{
+        width:100%;
+    }
+        
+    .brand .container article{
+        width:40%;
+    }
+    
+    .brand .container article:last-child{
+        margin-right:0px;
+    }
+    
+    .brand .container article div{
+        width:100%;
+        height:200px;
+    }      
+    
+    .brand .container article:nth-of-type(1) span,
+    .brand .container article:nth-of-type(2) span{
+        font:bold 24px/1;
+    }
+
+    .brand .container article:nth-of-type(3) div{
+        height:250px;
+    }
+    .footer .container{
+        width:100%;
+    }
+
+    .footer .up .left{
+        width:100%;
+    }
+
+    .footer .up .left ul{
+        width:25%;
+        text-align: center;
+    }
+    
+    .footer .up .right{
+        display: none;
+    }
+}
+
+@media screen and (max-width:539px){
+    .header{
+        padding:20px 0px;
+    }
+
+    .header .container span{
+        display:none;
+    }
+    
+    .header .container .menuWeb{
+        display:none;
+    }
+
+    .header .btnCall{
+        display:block;
+        position: absolute; 
+        top:50%;
+        margin-top:-25px;
+    }
+        
+    .visual{
+        margin-bottom:0px;
+    }
+                    
+    .news .container article {
+        width:100%;
+    }    
+    .news .container article i{
+        font-size:50px;
+    }
+    
+    .brand{
+        padding:0px;
+        margin-bottom:30px;
+    }
+        
+    .brand .container article{
+        width:100%;
+        margin-bottom:20px;
+    }
+    
+    
+    .brand .container article div{
+        height:150px;
+    }      
+    
+    .brand .container article:nth-of-type(3) div{
+        height:300px;
+    }
+
+    .footer{
+        padding:0px;
+    }
+
+    .footer .up .left ul li a{
+        display: none;
+    }
+    
+    .footer .down .logo {
+        height:20px;
+        font:bold 20px/20px "arial";
+    }
+    
+    .footer .down span{
+        font-size:12px;
+    }
+    
+    .footer .down select{
+        width:25%;
+        font:normal 20px/20px;
+        line-height: 20px;
+    }
+}
