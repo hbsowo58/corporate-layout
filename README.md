@@ -1,30 +1,31 @@
 # 기업형 레이아웃 제작
 
-사용기술 : html5, css3, javascript
+사용 기술 : html5, css3, javascript
 
 <br>
 
-목적: 다양한 기업형 레이아웃의 퍼블리싱을 통한 프론트엔드 기본 능력 함양
+목적) 다양한 기업형 레이아웃의 퍼블리싱을 통한 프런트엔드 기본 능력 함양
 
 <br>
 
-신경쓸점
+목표)
 
-html : 시멘틱마크업, SEO, 웹 표준(접근성 포함)
+html : 시맨틱 마크업, SEO, 웹 표준(접근성 포함)
 
-css: 레이아웃 배치 및 속성에 대한 이해
+css: 레이아웃 배치 및 속성에 대한 이해, 반응형 웹 (media query
+0
 
 javascript : 이 단계에서는 보조하는 기능을 주로 담당하며 dom 제어에 대한 이해
 
 <br>
 
-1.반응형 웹을 구성할 예정이며, css초기화는 Eric Meyer의 recet.css를 사용
+특징)
 
-2.css선택자는 부모-자식의 엘리먼트-클래스명까지 작성.
+1.css 초기화는 Eric Meyer의 recet.css를 사용
 
-<br>
+2.css 선택자는 section명 -부모 엘리먼트- 클래스명까지 작성.
 
-작업후 html파일은 https://prettydiff.com/?m=beautify&html css파일은 http://www.lonniebest.com/FormatCSS/을 활용하여 포맷
+3.작업후 html파일은 https://prettydiff.com/?m=beautify&html css파일은 http://www.lonniebest.com/FormatCSS/을 활용하여 포맷
 
 <br>
 
