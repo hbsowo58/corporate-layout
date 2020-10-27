@@ -1,0 +1,48 @@
+.visual
+{
+    width: 100%;
+    height: calc(80vh - 100px);
+	background: #000;
+	overflow: hidden;
+    padding-top: 250px;
+    position: relative;
+}
+
+.visual video
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    /* height: calc(100vh - 100px); */
+    transform: translate(-50%, -50%);
+    /* overflow: hidden; */
+    /* opacity: 0.5; */
+    /* margin-top:100px; */
+}
+
+.visual .container{
+    width: 1180px;
+    /* margin: 0 auto; */
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    /* background-color: red; */
+}
+
+
+.visual .container h2
+{
+	margin-bottom: 40px;
+    font-size: 3.75rem;
+    color:#fff;
+}
+.visual .container a
+{
+    padding: 10px 30px;
+    border: solid 1px rgba(255,255,255,0.7);
+    border-radius: 22px;
+    color:#fff;
+}
