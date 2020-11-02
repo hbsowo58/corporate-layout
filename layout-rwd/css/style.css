@@ -1,3 +1,4 @@
+/* reset */
 * {
   margin: 0px;
   padding: 0px; }
@@ -6,13 +7,22 @@ ul, ol, li {
   list-style: none; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  outline: 1;
+  color: #777; }
 
-table {
+img, fieldset {
+  border: 0; }
+
+table, th, td {
   border-collapse: collapse; }
 
-fieldset {
-  border: none; }
+input, select, textarea, form, img, label {
+  vertical-align: middle;
+  box-sizing: border-box; }
+
+textarea {
+  resize: none; }
 
 .hidden {
   position: absolute;
@@ -48,7 +58,6 @@ fieldset {
 
 /* header start */
 .header {
-  width: 100%;
   padding: 50px 0px; }
   .header .container {
     text-align: center;
@@ -254,32 +263,27 @@ fieldset {
 
 /* footer end */
 @media screen and (max-width: 1179px) {
-  .header {
-    padding: 30px; }
-    .header .container {
-      width: 100%; }
-      .header .container .gnb li a {
-        margin-right: 0px;
-        font-size: 12px; }
+  .header .container {
+    width: 100%; }
+    .header .container .gnb li a {
+      margin-right: 0px;
+      font-size: 12px; }
 
   .visual {
     margin-bottom: 30px; }
     .visual .swiper-slide {
       font-size: 30px; }
 
-  .news {
-    background-color: red; }
-    .news .container {
-      background-color: yellow;
-      text-align: center;
-      width: 100%; }
-      .news .container article {
-        width: 27%;
-        margin-right: 20px; }
-        .news .container article i {
-          display: block;
-          width: 100%;
-          font-size: 50px; }
+  .news .container {
+    text-align: center;
+    width: 100%; }
+    .news .container article {
+      width: 27%;
+      margin-right: 20px; }
+      .news .container article i {
+        display: block;
+        width: 100%;
+        font-size: 50px; }
 
   .brand {
     padding: 30px 0px;
@@ -325,7 +329,6 @@ fieldset {
     .header .container .btnCall {
       display: block;
       position: absolute;
-      right: 0px;
       top: 50%; }
 
   .visual {

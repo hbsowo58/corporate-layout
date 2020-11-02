@@ -4,7 +4,6 @@
 
 /* header start */
 .header{
-    width:100%;
     padding:50px 0px;
 
     .container{
@@ -307,7 +306,6 @@
 
 @media screen and (max-width:1179px){
     .header{
-        padding:30px;
         .container{
             width:100%;
             .gnb li a{
@@ -323,10 +321,7 @@
         }
     }
     .news{
-        // padding:0px 30px;
-        background-color: red;
         .container{
-            background-color: yellow;
             text-align: center;
             width:100%;
             article {
@@ -417,7 +412,7 @@
                 display:block;
                 position: absolute; 
                 // top:5%;
-                right:0px;
+                // right:0px;
                 top:50%;
             }
         }
