@@ -1,4 +1,8 @@
 @charset 'utf-8';
+
+$tablet : 1179px;
+$mobile : 539px;
+
 @import 'reset';
 @import 'common';
 
@@ -304,7 +308,7 @@
 /* footer end */
 
 
-@media screen and (max-width:1179px){
+@media screen and (max-width:$tablet){
     .header{
         .container{
             width:100%;
@@ -387,7 +391,7 @@
     }
 }
 
-@media screen and (max-width:539px){
+@media screen and (max-width:$mobile){
     .header{
         padding:20px 0px;
         &::after{
