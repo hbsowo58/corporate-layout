@@ -1,0 +1,43 @@
+.info{
+    width:100%;
+    background-color: red;
+    padding: 52px 0 44px;
+    background-color: #f9f9f9;
+}
+
+.info h2{
+    display: none;
+}
+
+.info .container{
+    width:1180px;
+    margin: 0px auto;
+}
+
+.info .container ul::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+
+.info .container ul li{
+    float:left;
+    width:calc((1180 - 60)/4 px);
+    margin-right:20px;
+    /* background-color: rebeccapurple; */
+}
+
+.info .container ul li:last-child{
+    margin-right:0px;
+}
+
+.info .container ul li a h3{
+    font-size: 1.25rem;
+    color: #191919;
+    margin-bottom:10px;
+}
+.info .container ul li a p{
+    font-size: 1rem;
+    color: #191919;
+    font-weight: 300;
+}
