@@ -620,3 +620,9 @@ comments 섹션
 최종제작본
 
 li 자식요소로 a와 span을 사용하였는데, 이를 float 배치하다보니 높이를 잃어버리는 현상이 발생한 것 외에는 예상대로 해결되었다.
+
+---
+
+footer
+
+![footer](https://user-images.githubusercontent.com/48181483/98188814-13d0d100-1f57-11eb-8a29-717dd58744a6.png)
