@@ -4,33 +4,43 @@
 
 <br>
 
-사용 기술 : html5, css3, javascript ,aws, sass
+##### 사용 기술 : html5, css3, javascript ,aws, sass
 
 <br>
 
-목적) 다양한 기업형 레이아웃의 퍼블리싱을 통한 프런트엔드 기본 능력 함양
+> 목적
+
+-  다양한 기업형 레이아웃의 퍼블리싱을 통한 프런트엔드 기본 능력 함양
 
 <br>
 
-목표)
+> 목표
+>
 
-html : 시맨틱 마크업, SEO, 웹 표준(접근성 포함)
+- html : 시맨틱 마크업, SEO, 웹 표준(접근성 포함)
 
-css: 레이아웃 배치 및 속성에 대한 이해, 반응형 웹 (media query)
 
-javascript : dom 제어에 대한 이해
+- css: 레이아웃 배치 및 속성에 대한 이해, 반응형 웹 (media query)
 
-sass: 변수, 네스팅 사용
+
+- javascript : dom 제어에 대한 이해
+
+
+- sass: 변수, 네스팅 사용
+
 
 <br>
 
-특징)
+> 특징
+>
 
-1.css 초기화는 Eric Meyer의 recet.css를 사용
+- css 초기화는 Eric Meyer의 recet.css를 사용
 
-2.sass로 css 전처리작업후, minify
 
-3.작업후 html파일은 [html 포맷 링크](https://prettydiff.com/?m=beautify&html) css파일은 [css포맷 링크](http://www.lonniebest.com/FormatCSS/) 을 활용하여 포맷
+- sass로 css 전처리작업후, minify
+
+- 작업후 html파일은 [html 포맷 링크](https://prettydiff.com/?m=beautify&html) css파일은 [css포맷 링크](http://www.lonniebest.com/FormatCSS/) 을 활용하여 포맷
+
 
 <br>
 
@@ -55,4 +65,4 @@ basic site
 
 ---
 
-섹션별 계획은 여기참조
+섹션별 계획은  [이곳 참조](https://github.com/hbsowo58/corporate-layout/blob/master/plan.md)
