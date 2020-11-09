@@ -5,6 +5,11 @@ $mobile : 539px;
 
 @import 'reset';
 @import 'common';
+@import 'sub_layout';
+@import 'community';
+@import 'member';
+@import 'department';
+
 
 /* header start */
 .header{
@@ -14,9 +19,11 @@ $mobile : 539px;
         text-align: center;
         position: relative;
 
-        .logo a{
-            color:#000;
-            font:bold 40px/1 "arial";
+        .logo{
+            a{
+                color:#000;
+                font:bold 40px/1 "arial";
+            }
         }
 
         span{
@@ -72,6 +79,19 @@ $mobile : 539px;
 
         .menuMo.on{
             left:0px;
+        }
+
+        h1 {
+            a {color:#fff; display:block; text-align:center;}
+            span {color:#aaa; font-size:12px;}
+        }
+
+        .gnbMo {
+            li {
+                a {
+                    display:block; width:100%; padding:20px 0px; border-bottom:1px solid #444; font:bold 14px/1 "arial"; color:#888; text-align:center;
+                }
+            }
         }
     }
 

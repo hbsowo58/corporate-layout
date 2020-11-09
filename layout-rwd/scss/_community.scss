@@ -1,0 +1,89 @@
+.community {
+    width:100%; padding:100px 0px;
+    .sub_visual {
+        background:lightgreen;
+    }
+    .container {width:1180px; margin:0px auto;
+        table {width:100%; border-bottom:2px solid #111; margin-bottom:50px;
+            th{
+                &:nth-of-type(1) {width:10%;}
+                &:nth-of-type(2) {width:60%;}
+                &:nth-of-type(3) {width:15%;}
+                &:nth-of-type(4) {width:15%;}
+                padding:15px; background:#444; color:#fff;
+            }
+            td {padding:13px; border-bottom:1px solid #ddd; text-align:center; transition:0.5s;
+                a{float:left; color:#666;}
+            }
+            tr{
+                &:nth-of-type(even){
+                    td {background-color:#eee;}
+                }
+                &:hover{
+                    td {background-color:lightcyan;}
+                }
+            }
+        }
+        .pagination {width:100%; text-align:center;
+            &::after{content:""; display:block; clear:both;}
+            .prev {display:block; width:100px; height:30px; background:#555; font:bold 12px/30px "arial"; color:#eee; text-align:center; float:left;}
+            .next {display:block; width:100px; height:30px; background:#555; font:bold 12px/30px "arial"; color:#eee; text-align:center; float:right;}
+            .numbers {display:inline-block; font-size:0;
+                a {display:inline-block; border:1px solid #888; width:30px; height:30px; font:11px/30px "arial"; color:#666; text-align:center; margin:0px 5px; transition:0.5s;
+                    &:hover{background:#666; color:#fff;}
+                }
+            }
+        }
+    }
+}
+
+
+/* ----------------tablet------------------- */
+@media screen and (max-width:1179px){    
+    .community {padding:80px 30px; box-sizing:border-box;
+        .container {width:100%;
+            table{
+                th{
+                    &:nth-of-type(1) {width:15%;}
+                    &:nth-of-type(2) {width:65%;}
+                    &:nth-of-type(3) {width:20%;}
+                    &:nth-of-type(4) {width:0%; display:none;} 
+                }
+                td{
+                    &:nth-of-type(4) {display:none;}
+                    a{
+                        text-align:left;
+                    } 
+                }
+            }
+            .pagination{
+                .numbers{
+                    a{
+                        &:nth-of-type(n+6):nth-of-type(-n+10) {display:none;}
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ----------------C.P------------------- */
+@media screen and (max-width:539px){
+    .community {
+        padding:60px 30px;
+        .container{
+            table{
+                th{
+                    &:nth-of-type(1) {width:0%; display:none;}
+                    &:nth-of-type(2) {width:80%;}
+                }
+                td{
+                    &:nth-of-type(1) {display:none;} 
+                }
+            }
+            .pagination{
+                .numbers {display:none;}
+            }
+        }
+    }   
+}

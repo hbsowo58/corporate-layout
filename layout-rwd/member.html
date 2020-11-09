@@ -1,72 +1,63 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>location</title>
-	<script src="https://kit.fontawesome.com/c47106c6a7.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/sub_layout.css">
-    <link rel="stylesheet" href="css/member.css">
-    <script src="js/common.js" defer></script>
+	<meta name="keywords" content="layout">
+	<meta name="description" content="기업형 레이아웃 사이트">
+	<meta name="author" content="허범성">
+	
+    <script src="https://kit.fontawesome.com/32ec8935c7.js" crossorigin="anonymous"></script>   
+    <link rel="stylesheet" href="css/style.min.css">
+	
+    <title>Member</title>
+
 </head>
 <body>
 
-	<header class="header">
-		<div class="container">
-			<h1 class="logo">
-				<a href="index.html">DCODELAB</a>
-			</h1>
-			<span>Basic Programming</span>
-			<ul class="gnb wrap">
-				<li>
-					<a href="#">DEPARTMENT</a>
-				</li>
-				<li>
-					<a href="community.html">COMMUNITY</a>
-				</li>
-				<li>
-					<a href="member.html">MEMBERS</a>
-				</li>
-				<li>
-					<a href="#">GALLERY</a>
-				</li>
-				<li>
-					<a href="location.html">LOCATION</a>
-				</li>
-			</ul>
-			<a href="#" class="btnCall">
-				<i class="fas fa-bars"></i>
-			</a>
-			<nav class="menuMo">
-				<ul>
-					<li>
-						<a href="#">DEPARTMENT</a>
-					</li>
-					<li>
-						<a href="community.html">COMMUNITY</a>
-					</li>
-					<li>
-						<a href="member.html">MEMBERS</a>
-					</li>
-					<li>
-						<a href="#">GALLERY</a>
-					</li>
-					<li>
-						<a href="#">LOCATION</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</header>
+    <header class="header_sub">
+        <div class="container">
+            <h1>
+                <a href="index.html">DCODELAB</a>
+                <span>UI UX DEVELOPMENT INSTITUTE</span>
+            </h1>
 
-	<section class="content member">
-		<div class="sub_visual">
-			
-		</div>
-		<div class="inner">
-            <h1>JOIN MEMBER<span>회원가입 페이지</span></h1>
-            
+            <nav class="menuWeb">
+                <ul class="gnb">
+                    <li><a href="department.html">DEPARTMENT</a></li>
+                    <li><a href="community.html">COMMUNITY</a></li>
+                    <li><a href="member.html">MEMBERS</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                </ul>
+            </nav>
+
+            <a href="#" class="btnCall">
+                <i class="fas fa-bars"></i>
+            </a>
+
+            <nav class="menuMo">
+                <h1>
+                    <a href="index.html">DCODELAB</a>
+                    <span>UI UX DEVELOPMENT INSTITUTE</span>
+                </h1>
+
+                <ul class="gnbMo">
+                    <li><a href="department.html">DEPARTMENT</a></li>
+                    <li><a href="community.html">COMMUNITY</a></li>
+                    <li><a href="member.html">MEMBERS</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">LOCATION</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="content member">
+        <div class="sub_visual"></div>
+        <div class="container">
+            <h1>MEMBER</h1>
             <form action="join.php" method="post">
                 <fieldset>
                     <legend class="hidden">회원가입 입력양식폼</legend>
@@ -111,12 +102,12 @@
                         </tr>
                         <tr>
                             <th scope="row"><label for="company">E-MAIL</label></th>
-                            <td class="email">
-                                <input type="text" placeholder="메일 아이디를 입력해주세요.">				
+                            <td>
+                                <input type="text" placeholder="메일 아이디를 입력해주세요."> @					
                                 <select name="company" id="company">
-                                    <option value="nate.com">@ nate.com</option>
-                                    <option value="naver.com">@ naver.com</option>
-                                    <option value="google.com">@ google.com</option>
+                                    <option value="nate.com">nate</option>
+                                    <option value="naver.com">naver</option>
+                                    <option value="google.com">google</option>
                                 </select>
                             </td>
                         </tr>
@@ -124,12 +115,6 @@
                             <th scope="row"><label for="comments">COMMENTS</label></th>
                             <td>
                                 <textarea name="comments" cols="30" rows="10" id="comments" placeholder="남기실 메세지를 적어주세요."></textarea>
-                            </td>
-                        </tr>
-                        <tr>
-                            <th><label for="file">File</label></th>
-                            <td>
-                                <input type="file" name="file" id="file" value="file">
                             </td>
                         </tr>		
                         <tr>
@@ -141,102 +126,62 @@
                     </table>
                 </fieldset>
             </form>
-		</div>
-	</section>
+        </div>
+    </section>
 
-	<footer class="footer">
-		<div class="container">
-			<div class="up wrap">
-				<div class="left">
-					<ul>
-						<li>
-							<a href="#">lorem</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<a href="#">lorem</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<a href="#">lorem</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-					</ul>
-					<ul>
-						<li>
-							<a href="#">lorem</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-						<li>
-							<a href="#">Lorem ipsum</a>
-						</li>
-					</ul>
-				</div>
+    <footer class="footer_sub">
+        <div class="upper">
+            <div class="container">
+                <h1 class="hidden">Information</h1>
+                <div class="wrap">
+                    <dl>
+                        <dt>lorem</dt>
+                        <dd>Strawberry</dd>
+                        <dd>Melon</dd>
+                        <dd>Orange</dd>
+                        <dd>Pear</dd>
+                    </dl>
+                    <dl>
+                        <dt>lorem</dt>
+                        <dd>Strawberry</dd>
+                        <dd>Melon</dd>
+                        <dd>Orange</dd>
+                        <dd>Pear</dd>
+                    </dl>
+                    <dl>
+                        <dt>lorem</dt>
+                        <dd>Strawberry</dd>
+                        <dd>Melon</dd>
+                        <dd>Orange</dd>
+                        <dd>Pear</dd>
+                    </dl>
+                    <dl>
+                        <dt>lorem</dt>
+                        <dd>Strawberry</dd>
+                        <dd>Melon</dd>
+                        <dd>Orange</dd>
+                        <dd>Pear</dd>
+                    </dl>
 
-				<div class="right">
-					<span>lorem ipsum</span>
-					<span>lorem ipsum</span>
-					<span>lorem ipsum</span>
-					<span>lorem ipsum</span>
-				</div>
-			</div>
-			<div class="down">
-				<a href="index.html" class="logo">DECODELAB</a>
-	
-				<span>2010 DCODELAB ALL RIGHT reserved</span>
-				
-				<select>
-					<option>FAMILY SITE</option>
-				</select>
-			</div>
-		</div>
-	</footer>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae alias ipsam recusandae perspiciatis. Id.</p>
+                </div>
+            </div>
+        </div>
+        <div class="lower">
+            <div class="container">
+                <div class="wrap">
+                    <h1>DCODELAB</h1>
+                    <p>2020 DOCODELAB All right Resereved.</p>
+                    <select>
+                        <option>Family Site</option>
+                        <option><a href="#">naver.com</a></option>
+                        <option><a href="#">nate.com</a></option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </footer>    
 
+    <script src="js/common.js"></script>
 </body>
 </html>
-
