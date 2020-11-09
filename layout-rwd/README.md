@@ -1,6 +1,6 @@
 # 기업형 레이아웃 제작
 
-[배포사이트 방문하기 링크](http://corporatelayout.s3-website.ap-northeast-2.amazonaws.com)
+[배포사이트 방문하기 링크](http://corporatelayout.s3-website.ap-northeast-2.amazonaws.com/)
 
 [![시범 동영상 링크](https://img.youtube.com/vi/0-RKm8nV00Y/hqdefault.jpg)](https://www.youtube.com/watch?v=0-RKm8nV00Y)
 
