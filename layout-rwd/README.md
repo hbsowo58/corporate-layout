@@ -25,7 +25,7 @@
 
 ☝️ 시범 동영상 
 
-<br>
+
 ## 폴더구조
 
 | 분류 폴더 | 서브 폴더                                      | 파일 이름                                                    | 파일 설명                                                    |
@@ -100,7 +100,7 @@ member.html
 
 - sass로 css 전처리작업후, minify
 
-- 작업후 html파일은 [html 포맷 링크](https://prettydiff.com/?m=beautify&html) css파일은 [css포맷 링크](http://www.lonniebest.com/FormatCSS/) 을 활용하여 포맷
+- 작업후 html파일은 👉🏻 [html 포맷 링크](https://prettydiff.com/?m=beautify&html) css파일은 👉🏻 [css포맷 링크](http://www.lonniebest.com/FormatCSS/) 을 활용하여 포맷
 
 
 <br>
