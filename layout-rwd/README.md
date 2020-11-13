@@ -28,13 +28,13 @@
 
 ## 폴더구조
 
-| 분류 폴더 | 서브 폴더                                      | 파일 이름                                                    | 파일 설명                                                    |
-| --------- | ---------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|           |                                                | index.html department.html comminity.html member.html        | 메인페이지 서브페이지 - department 서브페이지 - comminity 서브페이지 - member |
-| CSS       |                                                | reset.css common.css main.css responsive.css sub.css jquery-ui.css | 초기화 layout, header ,footer 메인페이지 common.css / main.css 반응형 서브페이지 / 반응형 서브페이지 jquery ui 스타일 |
-| image     | bgDlvision.jpg brand1.jpg brand2.jpg news1.jpg |                                                              | department페이지 이미지 메인페이지 이미지                    |
-| JS        |                                                | common.js  index.js swiper.min.js                            | nav 스크립트                                                 |
-| JS        | plugIn                                         | swiper.min.js                                                | swiper 플러그인 스크립트                                     |
+| 분류 폴더 | 서브 폴더 | 파일 이름                                             | 파일 설명                                                    |
+| --------- | --------- | ----------------------------------------------------- | ------------------------------------------------------------ |
+| CSS       |           | style.min.css swiper.min.css                          | 전체 레이아웃, swiper css                                    |
+| image     |           | bgDlvision.jpg brand1.jpg brand2.jpg news1.jpg        | department페이지 이미지 메인페이지 이미지                    |
+| JS        |           | index.js                                              | nav 스크립트                                                 |
+| JS        | plugIn    | swiper.min.js                                         | swiper 플러그인 스크립트                                     |
+|           |           | index.html department.html comminity.html member.html | 메인페이지 서브페이지 - department 서브페이지 - comminity 서브페이지 - member |
 
 
 
