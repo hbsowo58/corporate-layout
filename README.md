@@ -33,7 +33,7 @@
 | 분류 폴더 | 파일 이름                                     | 파일 설명                     |
 | --------- | --------------------------------------------- | ----------------------------- |
 | css       | style.min.css                                 | 전체 레이아웃 파일            |
-| img       | banner.jpg brand1~3.jpg new1~4.jpg visual.mp4 | 각 섹션별 필요파일            |
+| img       | banner.jpg brand1,2,3.jpg new1,2,3,4.jpg visual.mp4 | 각 섹션별 필요파일            |
 | scss      | _common.scss _reset.scss style.scss           | 전체 레이아웃(style로 import) |
 |           | index.html                                    | 메인페이지                    |
 
