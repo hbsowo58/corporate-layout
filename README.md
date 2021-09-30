@@ -21,8 +21,6 @@
 
   익스플로러: 11
 
-👉🏻 [배포사이트 방문하기 링크](http://corporate-layout.s3-website.ap-northeast-2.amazonaws.com)
-
 [![시범 동영상 링크](https://img.youtube.com/vi/P7Kev0vnamk/hqdefault.jpg)](https://www.youtube.com/watch?v=P7Kev0vnamk)
 
 ☝️ 시범 동영상 
